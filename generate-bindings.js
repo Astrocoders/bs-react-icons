@@ -18,7 +18,7 @@ const generateContents = () =>
           icon =>
             `module ${icon} = {
   [@bs.module "react-icons/${iconSet.toLowerCase()}"]
-  [@react.component] external make : (~className: string=?, ~color: string=?, ~size: string=?, style: ReactDOMRe.Style.t=?) => React.element = "${icon}";
+  [@react.component] external make : (~className: string=?, ~color: string=?, ~size: string=?, ~style: ReactDOMRe.Style.t=?) => React.element = "${icon}";
 };`
         ).
         join(`${os.EOL}${os.EOL}`)
