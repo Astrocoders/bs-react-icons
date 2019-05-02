@@ -1,6 +1,6 @@
 {
   "name": "bs-react-icons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reason bindings for React Icons",
   "main": "lib/js/src/ReactIcons.js",
   "author": "Yuri Jean Fabris <yuri.fabris@gmail.com>",
